@@ -1,0 +1,171 @@
+
+html {
+    font-size: 16px;
+}
+/* start header */
+/* sua code */
+header {
+    margin: 0 auto;   
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar {
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+}
+.bg-light {
+    background-color: transparent;
+}
+/* sua code */
+.icon span {
+    position: absolute;
+    top: 16px;
+    right: 33px;
+    font-size: 0.9rem;
+    color: rgba(22, 28, 45, 0.7);
+}
+.icon {
+    position: relative;
+    margin-right: 1rem;
+}    
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.icon input {
+    height: 45px;
+    right: 20px;
+    padding: 0 30px;
+}
+.icon input form-control mr-sm-2 {
+    margin-right: 30px;
+}
+.form-control {
+    border-radius: 8px;
+}
+.icon_1 i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: white;
+}
+.icon_2 i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+/* end header */
+
+/* star carousel */
+.parallax {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(./banner1.jpg);
+    /* height: 100%; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+.parallax_contenr {
+    padding-top: 230px;
+    padding-left: 150px;
+}
+.parallax_contenr h2 {
+    font-size: 3.2rem;
+    color: white;
+}
+.parallax_contenr p {
+    color: white;
+    padding-top: 20px;
+}
+.readmore {
+    padding-top: 35px;
+}
+.readmore_button button {
+    padding: 12px 55px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 6px;
+    background: transparent;
+    font-weight: 700;
+    position: absolute;
+}
+.readmore_icon i {
+    color: white;
+    position: relative;
+    font-size: 1.3rem;
+    margin-left: 150px;
+    margin-top: 17px;
+}
+/* end carousel */
+
+/* star conten */
+.conten {
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+.conten_center {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+.conten_left p {
+    color: #ff6600;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+.conten_left h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.conten_right h2 {
+    font-size: 1.2rem;
+    color:  rgba(22, 28, 45, 0.7);
+    font-family: 'Quicksand', sans-serif;
+}
+/* end conten */
+
+/* star carousel */
+.carousel {
+    background: #ff6600;
+    display: flex;
+}
+.carousel_flex img{
+    /* background-image: url(./banner3.jpg); */
+    /* width: 50%; */
+    /* min-height: 600px; */
+    /* background-size: cover; */
+    /* display: flex; */
+    width: 90%; 
+    min-height: 600px;
+    background-size: cover;
+}
+.carousel_right {
+    /* padding-right: 100px; */
+    /* padding-left: 200px; */
+    width: 90%;
+    /* width: 50%; */
+    /* display: flex; */
+    /* margin-right: 200px; */
+}
+.carousel_1 p {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.carousel_1 span {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.carousel_1 h2 {
+    color: white;
+    font-size: 1rem;
+}
